@@ -1,0 +1,84 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #974acf, #530975);
+}
+
+.calculator {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5); 
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom right, #425699, #530975);
+}
+
+.screen {
+  background-color: #212121;
+  margin: 0 auto;
+  align-items: center;
+  height: 100px;
+  text-align: right;
+  box-sizing: border-box;
+  font-size: 36px;
+  padding: 25px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ac,
+.zero {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.keys {
+  width: 100%;
+  padding: 15;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+button {
+  width: 25%;
+  padding: 25px;
+  font-size: 36px;
+  cursor: pointer;
+  background-color: #2f3646;
+  opacity: 0.8;
+  color: white;
+  border: none;
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button:active {
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+  top: 5px;
+}
+
+.operand,
+.sama-dengan {
+  background-color: #c45bdc;
+}
+
+.persen {
+  background-color: #2f3646;
+}
+
